@@ -1,0 +1,107 @@
+<!DOCTYPE html [
+        <!ELEMENT html (head|body|p)*>
+        <!ELEMENT head (style)*>
+        <!ELEMENT style (#PCDATA)>
+        <!ELEMENT body (h1|p|h3|ul|img)*>
+        <!ELEMENT h1 (img)*>
+        <!ELEMENT img (#PCDATA)>
+        <!ATTLIST img
+                height CDATA #IMPLIED
+                id CDATA #IMPLIED
+                src CDATA #REQUIRED
+                style CDATA #IMPLIED
+                width CDATA #IMPLIED>
+        <!ELEMENT p (img|a)*>
+        <!ATTLIST p
+                id CDATA #IMPLIED>
+        <!ELEMENT h3 (#PCDATA)>
+        <!ATTLIST h3
+                style CDATA #REQUIRED>
+        <!ELEMENT ul (li)*>
+        <!ATTLIST ul
+                style CDATA #REQUIRED>
+        <!ELEMENT li (#PCDATA)>
+        <!ATTLIST li
+                style CDATA #IMPLIED>
+        <!ELEMENT a (img)*>
+        <!ATTLIST a
+                href CDATA #REQUIRED>
+        ]>
+<html>
+        <head>
+           <style>
+               body
+               {
+                   background-image: url('free-paper-texture-35.jpg')
+               }
+               h1
+               {
+                   position:absolute;
+                   top:0;
+                   left:90px;
+               }
+               #pencil
+               {
+                   position:absolute;
+                   right:370px;
+                   top:60px;
+               }
+               #mid
+               {
+                   position:absolute;
+                   top:280px;
+                   left:350px;
+               }
+               #exampic
+               {position:absolute; top:300px; left:100px;}
+               #exambook
+               {position:absolute; top:550px; left:100px;}
+
+           </style>
+        </head>
+        <body>
+           <h1> <a href="bruns_Homepage.html"><img src="globe.png" width="236" height="184.8"></h1>    </a>
+           <p id="pencil">
+               <a href="bruns_Homepage.html">
+                   <img src="pencil.png"</p>
+        </a>
+        </body>
+        <body>
+          <p>
+            <h3 style="position:absolute; top:360px; left:565px; z-index:2; font-family:Arial Black,Gadget,sans-serif;">Tips For Studying For The AP Exam</h3>
+            <ul style="position:absolute; top:420px; left:555px; z-index:2; font-family:Arial,Gadget,sans-serif;">
+                <li>Start studying early</li>
+                <li>Buy the book Mr. Bruns tells you to buy</li>
+                <li style="width:27em; word-wrap:break-word;">Do what's effective for you, whether it be watching videos or reading books</li>
+                <li>Take the practice tests in the study books</li>
+                <li style="width:27em; word-wrap:break-word;">Prepare for all parts of the test, multiple choice and the three types of essays</li>
+                <li style="width:27em; word-wrap:break-word;">Do practice essays, even though they're very painful, trust us, it'll pay off when you sit down with only two hours to write the real essays</li>
+                <li style="width:27em; word-wrap:break-word;">Take Mr. Bruns's practice Exam, not the standard final, this is a no-brainer, the AP practice exam will prepare you for the real thing way better than the final can</li>
+            </ul>
+            <img id="mid" src="mid.png">
+            <img id="exampic" src="exampic.jpg" width="240" height="240">
+            <img id="exambook" src="exambook.JPG" width="240">
+          </p>
+        </body>
+        <p>
+           <a href="ci.html">
+               <img style="position:absolute; top:165px; left:280px;"  src="paper%20ci.png" width="170" height="120">
+           </a>
+
+           <a href="book.html">
+               <img style="position:absolute; top:165px; left:485px;"  src="paper%20book.png" width="170" height="120">
+           </a>
+
+           <a href="group.html">
+               <img style="position:absolute; top:165px; left:690px;"  src="paper%20group.png" width="170" height="120">
+           </a>
+
+           <a href="exam.html">
+               <img style="position:absolute; top:165px; left:895px;"  src="paper%20exam.png" width="170" height="120">
+           </a>
+
+           <a href="tips.html">
+               <img style="position:absolute; top:165px; left:1100px;"  src="paper%20tips.png" width="170" height="120">
+           </a>
+        </p>
+        </html>
